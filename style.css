@@ -26,8 +26,21 @@ content: url(https://api.iconify.design/bi/star-fill.svg?height=12&color=blue
 
 );
 }
+ul li::after{
+    content: url(https://api.iconify.design/bi/moon-fill.svg?height=12&color=blue
+    
+    );
+    }
 a::before{
-    content: url(https://api.iconify.design/bi/rocket-fill.svg?height=12&color=blue
+    content: url(https://api.iconify.design/bi/cloud-fill.svg?height=12&color=blue
      );
+ }
+ a::after{
+    content: url(https://api.iconify.design/bi/sun-fill.svg?height=12&color=blue
+     );
+ }
+ h1{
+    text-shadow: 10px 10px 4px rgb(72, 72, 126);
+color: rgb(49, 98, 190)
  }
     
